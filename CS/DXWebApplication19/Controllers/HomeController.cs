@@ -1,8 +1,4 @@
-using DevExpress.Web.Mvc;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace DXWebApplication19.Controllers
@@ -14,7 +10,7 @@ namespace DXWebApplication19.Controllers
             return View();
         }
 
-        DXWebApplication19.NWindEntities db = new DXWebApplication19.NWindEntities();
+        NWindEntities db = new NWindEntities();
 
         [ValidateInput(false)]
         public ActionResult PivotGridPartial(bool? enable) {

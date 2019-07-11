@@ -36,6 +36,11 @@
         field.FieldName = "Sales_Person";
         field.Caption = "Sales Person";
     });
+    settings.Fields.Add(field => {
+        field.Area = PivotArea.FilterArea;
+        field.FieldName = "Country";
+        field.Caption = "Country";
+    });
     settings.BeforeGetCallbackResult = (sender, e) => {
         MVCxPivotGrid pivotGrid = sender as MVCxPivotGrid;
         pivotGrid.Fields["Sales_Person"].SortMode = ViewBag.Enable? PivotSortMode.Custom: PivotSortMode.Default;
