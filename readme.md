@@ -1,7 +1,7 @@
 *Files to look at*:
 
-* [Index.cshtml](.CS/DXWebApplication19/Views/Home/Index.cshtml)
-* [_PivotGridPartial.cshtml](.CS/DXWebApplication19/Views/Home/_PivotGridPartial.cshtml)
+* [Index.cshtml](./CS/DXWebApplication19/Views/Home/Index.cshtml)
+* [_PivotGridPartial.cshtml](./CS/DXWebApplication19/Views/Home/_PivotGridPartial.cshtml)
 * [HomeController.cs](./CS/DXWebApplication19/Controllers/HomeController.cs)
 
 # CustomFieldSort - How to Use a Hidden Field to Sort the Visible Field
